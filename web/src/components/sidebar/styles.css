@@ -1,0 +1,35 @@
+.sidebar h5 {
+  height: 30px;
+  margin-bottom: 0;
+}
+
+.sidebar .products {
+  height: calc(100% - 190px);
+  overflow: auto;
+  align-content: flex-start;
+}
+
+.sidebar .footer {
+  height: 160px;
+  background: #f6f6f5;
+}
+
+.sidebar .products::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar .products::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar .products::-webkit-scrollbar-thumb {
+  background: rgb(var(--primary));
+}
+
+.sidebar .products::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}
+
+.sidebar .products::selection {
+  background: rgb(var(--primary));
+}

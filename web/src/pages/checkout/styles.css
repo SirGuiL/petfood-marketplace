@@ -1,0 +1,35 @@
+.section-title {
+  padding-bottom: 7px;
+  margin: 20px 0;
+  display: inline-block;
+  border-bottom: 2px solid rgb(var(--primary));
+}
+
+.box-sidebar {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.box-sidebar:hover::-webkit-scrollbar-thumb {
+  background: rgb(var(--primary));
+}
+
+.box-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.box-sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.box-sidebar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.box-sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}
+
+.box-sidebar::selection {
+  background: rgb(var(--primary));
+}
